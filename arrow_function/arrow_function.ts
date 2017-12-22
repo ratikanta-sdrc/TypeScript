@@ -57,9 +57,11 @@
 var employee = {
     id: 1,
     greet: function(){
-        setTimeout(()=>{
-            console.log(this.id)
-        }, 1000)        
+        var temp = this;
+        setTimeout(function(){
+            console.log(temp.id)
+        }, 2000)
+        
     }
 }
 
