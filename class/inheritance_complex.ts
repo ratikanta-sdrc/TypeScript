@@ -22,8 +22,8 @@ class Horse extends Animal1 {
     }
 }
 
-let guguli = new Snake("Guguli the Sapa");
+let pratyush = new Snake("Pratyush the Dhanda");
 let harsh: Animal1 = new Horse("Harsh the Ghoda");
 
-guguli.move();
+pratyush.move();
 harsh.move(34);
