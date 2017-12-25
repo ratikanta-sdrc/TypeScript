@@ -7,11 +7,3 @@ const showUserDetails = function(name, age, address){
 showUserDetails("SK Azar", 28, "Bhubaneswar, Odisha, India")
 
 //Export azar
-
-//optional property (skype id )
-
-//Readonly property
-// interface Point {
-//     readonly x: number;
-//     readonly y: number;
-// }
