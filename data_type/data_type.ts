@@ -7,7 +7,7 @@ let weight: number = 70.56
 
 let organizationName : string = "SDRC"
 
-let demoArray:  [number] = [1,2]
+let demoArray:  number[] = [1,2]
 
 console.log(demoArray)
 

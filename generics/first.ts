@@ -4,7 +4,7 @@
  * @returns modifiedData This method will return modified data after application of logic  
  */
 
-function writeToFile1<K>(data: K): K{
+function writeToFile1<T>(data: T): T{
 
     let modifiedData = data;
 
